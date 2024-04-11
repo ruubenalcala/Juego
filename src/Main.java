@@ -15,7 +15,7 @@ public class Main {
         java.awt.EventQueue.invokeLater(new Runnable() { //CREA VIRTUALIZACION VENTANA
         @Override
         public void run() {
-            new Register().setVisible(true);
+            new Principal().setVisible(true);
         }
     });
     }
